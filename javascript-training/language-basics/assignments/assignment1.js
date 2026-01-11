@@ -9,11 +9,11 @@ let orderPlaced = true;
 console.log("Order Placed : "+orderPlaced);
 
 //3. Person's phone number: "123-456-7890"
-let phoneNumber = 1234567890;
+let phoneNumber = "123-456-7890";
 console.log("Phone Number : " +phoneNumber);
 
 //4. Amount of money in a customer's bank account: 1000.50
-let bankBalance = 1000;
+let bankBalance = 1000.50;
 console.log("Bank Balance : "+bankBalance);
 
 //5. Person's email address: "john.doe@example.com"
@@ -41,7 +41,7 @@ let currYear = 2025;
 console.log("Current Year : "+currYear);
 
 // 11.Number of followers on a social media platform: 1,000,000
-let followersCount = 1000000;
+let followersCount = "1,000,000";
 console.log("Followers Count : "+followersCount);
 
 // 12.Rating of a movie: 7.5
