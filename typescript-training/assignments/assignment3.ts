@@ -5,33 +5,32 @@ function bank(
     isEmployed: boolean,
     debtToIncomeRatio: number
 ): void {
-    if (creditScore >= 750) {
-        console.log("Loan is approved");
+    if (creditScore > 750) {
+        console.log("Congrats!!! Loan is approved");
     }
-    else if (creditScore >= 650 && creditScore < 750) {
+    else if (creditScore >= 650 && creditScore <= 750) {
         console.log("Needed additional checks");
         if (income >= 50000) {
-            console.log("Loan is considered for "+customerName)
+            console.log("Loan is considered for " + customerName)
             if (isEmployed == true) {
                 if (debtToIncomeRatio < 40) {
-                    console.log("Congrats! Loan is Approved for "+customerName)
+                    console.log("Congrats!!! Loan is Approved for " + customerName)
                 }
                 else {
-                    console.log("Sorry Loan is rejected for "+customerName +" since debtToIncomeRatio is higher")
+                    console.log("Sorry Loan is rejected for " + customerName + " since debtToIncomeRatio is higher")
                 }
             }
             else {
-                console.log("Sorry Loan is rejected for "+customerName+ " since customer is unemployed")
+                console.log("Sorry Loan is rejected for " + customerName + " since customer is unemployed")
             }
         }
-        else
-        {
-            console.log("Sorry Loan is rejected for " +customerName+" since income is less")
+        else {
+            console.log("Sorry Loan is rejected for " + customerName + " since income is less")
         }
     }
-    else {
+    else{
         console.log("Loan is rejected since cibil score is Low");
     }
 }
 
-bank("John Doe", 740, 55000.0, false, 35.0);
+bank("John Doe", 720, 55000.0, true, 35.0);
