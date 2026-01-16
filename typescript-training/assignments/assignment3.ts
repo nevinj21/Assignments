@@ -8,7 +8,7 @@ function bank(
     if (creditScore > 750) {
         console.log("Congrats!!! Loan is approved");
     }
-    else if (creditScore >= 650 && creditScore <= 750) {
+    else if (creditScore >= 650) {
         console.log("Needed additional checks");
         if (income >= 50000) {
             console.log("Loan is considered for " + customerName)
