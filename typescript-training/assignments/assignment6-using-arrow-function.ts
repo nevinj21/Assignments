@@ -12,4 +12,4 @@ const PrimeOrNot = (num: number): void  => {
     console.log("Its a Prime Number")
 }
 
-PrimeOrNot(15)
+PrimeOrNot(17) 

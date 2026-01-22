@@ -1,4 +1,4 @@
-function bank(
+function bankLoan(
     customerName: string,
     creditScore: number,
     income: number,
@@ -33,4 +33,4 @@ function bank(
     }
 }
 
-bank("John Doe", 720, 55000.0, true, 35.0);
+bankLoan("John Doe", 720, 55000.0, true, 35.0);
