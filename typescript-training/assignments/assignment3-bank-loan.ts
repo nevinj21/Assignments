@@ -33,4 +33,4 @@ function bankLoan(
     }
 }
 
-bankLoan("John Doe", 720, 55000.0, true, 35.0);
+bankLoan("John Doe", 720, 55000.0, true, 35.0)
