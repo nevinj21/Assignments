@@ -40,4 +40,5 @@ let amount: number[] = [
     4000,
     -3000
 ]
+
 Transaction(amount)
