@@ -78,4 +78,4 @@ console.log("Person's Birth Place : "+birthplace);
 
 // 20. Distance between two cities: 200.5
 let dist :number = 200.5;
-console.log("Distance between two Cities : "+dist)
+console.log("Distance between two Cities : "+dist )
