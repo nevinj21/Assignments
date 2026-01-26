@@ -1,7 +1,8 @@
 let palindromeCheck = (str : string) : void =>
 {
     let lowerString :string = str.toLowerCase();
-    let rawString : string = lowerString.replace(/[' ', . :]/g,'');
+    //let rawString : string = lowerString.replace(/[' ', . :]/g,'');
+    let rawString : string = lowerString.replace(/[^a-zA-Z]/g,'')
     let revString : string = "";
     for(let i = rawString.length;i >= 0;i--)
     {
