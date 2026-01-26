@@ -19,6 +19,7 @@ for (const key of empData.keys()) {
 
     const hikePercentageN : number = calculateHike(baseSalaryN, experienceN, ratingN);
     hikeMap.set(key, hikePercentageN)
+    
 
     console.log("Hike Percentage for each employee:");
     console.log(hikeMap);

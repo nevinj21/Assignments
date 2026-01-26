@@ -3,7 +3,11 @@ const power = (base : number,exponential : number) : number =>
     let result : number = 1
     if(exponential === 0) return 1
 
-    if (exponential < 0) return (1 / power(base,-exponential))
+    if (exponential < 0) 
+    {
+        base = 1/base;
+        exponential = -exponential;
+    }
     
     
     for(let i = 1;i <= exponential; i++)
@@ -14,4 +18,4 @@ const power = (base : number,exponential : number) : number =>
     return result
 }
 
-console.log(power(2,-2))
+console.log(power(2,-4))
