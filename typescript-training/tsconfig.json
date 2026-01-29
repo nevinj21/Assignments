@@ -20,6 +20,10 @@
     "declaration": true,
     "declarationMap": true,
 
+    //Adding Module COnfigurations
+    "noEmit": true,
+    "allowImportingTsExtensions" :true,
+
     // Stricter Typechecking Options
     "noUncheckedIndexedAccess": true,
     "exactOptionalPropertyTypes": true,
