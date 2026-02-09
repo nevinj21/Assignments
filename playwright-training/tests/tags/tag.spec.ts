@@ -26,7 +26,7 @@ test.describe('Group 2 Tests', async () => {
 
     });
     test('Group 2 test 3',{tag:['@smoke','@sanity']}, async ({ page }) => {
-        console.log("Group 2 Test 3")
+        console.log("Group 2 Test 3 ")
 
     });
 });

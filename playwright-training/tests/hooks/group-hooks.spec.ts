@@ -19,7 +19,7 @@ test.describe(' ', async () => {
 test.describe('Group 2 Tests', async () => {
 
     test.beforeAll(async () => {
-        console.log("*************Group 2 Before all test case***************")
+        console.log("*************Group 2 Before all test case****************")
     })
     test.afterAll(async () => {
         console.log("*************Group 2  After all test cases***************")

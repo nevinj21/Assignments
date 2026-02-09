@@ -32,7 +32,7 @@ Group 2 Test 3
 [chromium] › tests\hooks\global-hooks.spec.ts:14:9 ›   › Group 1 test 3
 Group 1 Test 3
 -------------after each test case---------------
-[chromium] › tests\hooks\global-hooks.spec.ts:28:9 › Group 2 Tests › Group 2 test 3
+[chromium] › tests\hooks\global-hooks.spec.ts:28:9 › Group 2  Tests › Group 2 test 3
 *************After all test cases***************
 [chromium] › tests\hooks\global-hooks.spec.ts:14:9 ›   › Group 1 test 3
 *************After all test cases***************

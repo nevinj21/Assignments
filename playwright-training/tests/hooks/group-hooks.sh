@@ -21,7 +21,7 @@ Group 2 Test 2
 [chromium] › tests\hooks\group-hooks.spec.ts:42:9 › Group 2 Tests › Group 2 test 3
 -------------after each test case---------------
 [chromium] › tests\hooks\group-hooks.spec.ts:38:9 › Group 2 Tests › Group 2 test 2
--------------after each test case---------------
+-------------after each test case----------------
 [chromium] › tests\hooks\group-hooks.spec.ts:42:9 › Group 2 Tests › Group 2 test 3
 *************Group 2  After all test cases***************
 [chromium] › tests\hooks\group-hooks.spec.ts:38:9 › Group 2 Tests › Group 2 test 2

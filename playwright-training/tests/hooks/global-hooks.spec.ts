@@ -37,7 +37,7 @@ test.afterAll(async()=> {
     console.log("*************After all test cases***************")
 })
 test.beforeEach(async()=>{
-    console.log("-------------Before Each Test case--------------")
+    console.log("--------------Before Each Test case--------------")
 })
 test.afterEach(async() => {
     console.log("-------------after each test case---------------")
